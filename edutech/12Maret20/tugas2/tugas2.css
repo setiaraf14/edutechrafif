@@ -1,0 +1,19 @@
+.formkepala{
+	margin-left:500px;
+}
+
+.fb{
+	margin-left: 200px;
+	font-size: 30px;
+}
+
+.menu{
+	background-color: blue;
+}
+.isian{
+	width: 1200px;
+	height: 500px;
+	background-image: url('fb.png');
+	border: 10px;
+}
+

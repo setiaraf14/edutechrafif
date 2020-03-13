@@ -1,0 +1,40 @@
+.header{
+    background-color: #2A2084;
+    color: white;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: -10px;
+}
+.judul{
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form{
+    display: flex;
+    font-size: 15px;
+    padding-bottom: -5px;;
+}
+
+.form1{
+    padding-left: 10px;
+}
+
+.form2{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.tombol{
+    background-color: darkblue;
+    text-decoration: none;
+    border: solid black 1px;
+    color: white;
+}
+
+.tulisan{
+    padding-top: 50px;
+}

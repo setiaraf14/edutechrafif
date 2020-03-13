@@ -1,0 +1,31 @@
+Catatan FORM HTML
+
+*outufocus sebuah atribut untuk memberikan focus pada kolom pengisian pada saat halaman web pertama kali di buka 
+	#<form>
+		<label><label>
+		<input type="text" outufocus>
+	 </form>
+
+*artribut chacked pada input type checbox digunakan untuk memberikan tanda contoh ceklis 
+ 	#<form>
+		<label></label>
+		<input type="chechkbox" chechked>
+	</form>
+*untuk membuat radio memilih hanya salah satu pilihan saja, harus menambahkan atribut name dengan value yang sama 
+
+*membuat kotak pada form dengan fieldset
+
+*atribut onclik alert pada tag <input>, memberikan kondisi bila pada output dari tag input di klik, akan memeberikan sebuah
+keterangan yang bisa kita buat sendiri.
+
+*atribut selected hidden disable untuk menciptakan kondisi pada pilihan list agar yang menjadi judul pilihan tidak bisa di pilih
+
+*atribut onclick="confirm('yakin dihapus!')" memberikan kondisi sebagai peringatan apa kah data tersbut benar ingin dihapus
+
+*untuk value bgcolor pada tag table bisa di isi dengan hexa atau rgb
+contoh <td bgcolor="#0080000"> menciptakan warna abu-abu pada kolom 
+
+* atribut colspan digunakan untuk menggabungkan kolom, teragantung dari banyaknya kolom
+* itungan margin itu dari atas, kanan, bawah, kiri
+
+* mengatur panjang dari tag <input> bisa menggunakan atribut size=""

@@ -1,0 +1,38 @@
+.judul{
+	color: white;
+	text-align: center;
+	font-family: tahoma;
+	font-size: 30px;
+}
+
+.data{
+	width: 100px;
+	height: 500px;
+	padding-left: 200px;
+	margin-top: 50px;
+	font-size: 15px;
+	font-family: verdana;
+}
+
+.data2{
+	width: 100px;
+	height: 500px;
+	padding-left: 700px; 
+	margin-top: -500px;
+	font-size: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+}
+
+.foto img {
+     border-radius: 50%;
+     width: 200px;
+     margin-left: 550px;
+     border: 15px ;
+}
+
+img {
+     border-radius: 50%;
+     width: 100px;
+     border: 15px ;
+}

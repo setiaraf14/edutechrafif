@@ -1,0 +1,15 @@
+.box{
+    background-image: url('tokep.png');
+    height: 220px;
+    width: 120px;
+    margin:10px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey; 
+}
+/* angka pertama kiri, angka kedua kanan, angka 3 bawah */
+
+.karosel{
+    width: 500px;
+    height: 300px;
+}

@@ -1,0 +1,56 @@
+yang ada pada tag head
+-style (untuk css dan js)<style></style>
+-
+
+
+
+*<style></style> sendri terbagi atas 3 jenis yaitu inline ,external style dan internal style
+
+- iniline style terdapat pada bari sintax dalam satu baris sintax yang ada contoh <p style="color: red"></p>
+
+- internal style terdapat pada baris di dalam tag <head>
+ contoh : <head>
+		<title>belajar html</title>
+		<style type="text/css">
+			p{ 
+			   color: red;
+				      }
+		</style>
+	  </head>
+
+- External style berada di dalam file lain yg di panggil pada tag <link> dalam tag <head>
+	  <head>
+		<title>belajar html</title>
+		<link rel="stylesheet" type="text/css" href="style.css"> (berada pada folder yang sama)
+	  </head>
+
+	#sintax pada file style.css =
+		.p2{
+		     color: blue;
+			         }
+
+*heading tag <h>, terbagi atas 6 yang membedakan jenis ukurannya
+
+* tag <b>, <i>, dan <u> yang mempunyai fungsi sebagai pengatur format dari font yang ada sama dengan yg ada pada ms. word
+
+* tag <img> untuk menyisipkan gambar
+	# <img src="gambar.jpg">
+ gambar yang di ambil bisa malalui link pada internet ataupun yang ada pada komputer sendiri
+
+* tag alt atau <alt> digunakan untuk memberi sebuah keterangan bila ada sebuah gambar yang tidak tampil.
+ 	# <img src="gambar.jpg" alt="ini gambar">
+
+* tag comentar  <!-- --> tag yang digunakan untuk memberikan keterangan pada sebuah sintax namun keterangan tersebut tidak di
+tampilkan pada halaman
+
+*tag <a> digunakan untuk mendirect sebuah halaman dalam tag <a> 
+	#<a  herf="http//google.com"></a> 
+
+
+
+
+
+
+
+
+

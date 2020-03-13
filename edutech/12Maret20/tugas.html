@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TUGAS1</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Sen&display=swap" rel="stylesheet">
+	<style type="text/css">
+		header {
+			width: 100%;
+			height: 100px;
+			background-color: #5F9EA0;
+			font-family: 'Open Sans', sans-serif;
+			margin-top: -20px;
+			padding-top: 20px;
+		}
+
+		aside{
+			margin-top: -19px;
+			width: 300px;
+			background-color: #BDB76B;
+			height: 492px;
+			}
+
+		section{
+			margin-top: -450px;
+			margin-left:200px ;
+			font-family: 'Sen', sans-serif;
+		}	
+
+		footer {
+			background-color: #778899;
+			padding-bottom: 10px;
+		   position:absolute;
+		   bottom:0;
+		   width:100%;
+		   height:40px;
+		   margin-bottom: -10px;    /* Contoh tinggi footer 60px */
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<center>
+			<H1>PENDAFTARAN AKUN SMP TARUNA 1</H1>
+		</center>
+	</header>
+
+	<!-- di atas adalah judul -->
+
+  <aside>
+  	<CENTER>
+    <H3>INFORMASI UMUM</H3>
+	</CENTER>
+    <ul>
+      <ol><a href="#">DATA GURU</a></ol>
+      <br><br>
+      <ol><a href="#">DATA SISWA</a></ol>
+      <br><br>
+      <ol><a href="#">DATA PRESTASI SEKOLAH</a></ol>
+    </ul>
+  </aside>
+
+  	<section>
+		<center>
+			<form>
+				<table cellspacing="10" cellspacing="0">
+					<tr>
+						<td><label for="nama">Nama</label></td>
+						<td>:<input type="text" id="nama" placeholder="Masukana nama" size="45"></td>
+					</tr>
+					<tr>
+						<td><label for="Password">Password</label></td>
+						<td>:<input type="Password" id="Password" placeholder="Masukan Password" size="45"></td>
+					</tr>
+					<tr>
+						<td><label for="jk">Jenis Kelamin</label></td>
+						<td>:
+							<input type="radio" name="jk">Laki-Laki
+							<input type="radio" name="jk">Perempuan
+						</td>
+					</tr>
+					<tr>
+						<td><label for="jk">Minat</label></td>
+						<td>:
+							<input type="checkbox" name="Minat">Olahraga
+							<input type="checkbox" name="Minat">Kesenian
+							<input type="checkbox" name="Minat">Otomotif
+							<input type="checkbox" name="Minat">Industri
+						</td>
+					</tr>
+					<tr>
+						<td><label for="kota">Asal Kota</label></td>
+						<td>:
+							<select id="kota">
+								<option selected hidden disable>Pilih Kotanya WOYYYY</option>
+								<option>Jakarta</option>
+								<option>Tangerang</option>
+								<option>Bogor</option>
+								<option>Bekasi</option>
+								<option>Depok</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<input type="submit" name="submit" value="submit" onclick="alert('data telah disimpan')">
+				<input type="reset" name="reset" value="reset" onclick="confirm('Hayo liat lagi, jangan ragu dong')">
+			</form>
+			<br>
+			<table cellpadding="10" border="1">
+				<tr>
+					<th>Nama Siswa</th>
+					<th>Minat</th>
+					<th>Asal Kota</th>
+				</tr>
+				<tr>
+					<td>Agus</td>
+					<td>Olahraga</td>
+					<td>Malang</td>
+				</tr>
+				<tr>
+					<td>Yosa</td>
+					<td>Otomotif</td>
+					<td>Gersik</td>
+				</tr>
+				<tr>
+					<td>Rizal</td>
+					<td>Kesenian</td>
+					<td>Jogjakarta</td>
+				</tr>	
+			</table>
+		</center>
+	</section>
+
+	<footer>
+		<center>
+			<h4>&copy;Copyright</h4>
+		</center>
+	</footer>
+
+</body>
+</html>

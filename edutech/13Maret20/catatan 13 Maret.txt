@@ -1,0 +1,12 @@
+*cara buka vscode dengan cmd yaitu tuju dulu folder yang ada projecnya
+kemudian ketik code .
+
+*(css) text align digunakan untuk mentengahkan text pada layout
+*(css) digunakan untuk memposisikan sebuah elemen sejajar dalam satu baris kegunaan hampir sama dengan flex.
+namun lebih sederhana. Valuenya berupa left, right, inherit, none tapi memiliki kekurangan bila ingin membuat semua elemen
+yang ada berbari menyamping maka semua element tersebut harus memiliki float:(valuenya);
+
+*tag<pre> membuat kalimat sesuai pada text ditor baik tata letaknya
+
+*mengclone repasatory git hub dengen cmd, menggunakan git clone (copyan dari git hub)
+

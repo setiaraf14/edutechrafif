@@ -1,0 +1,17 @@
+CATATAN 12Maret20
+
+*menambah gambar pada tab, bisa di taruh di dalam tag <title>
+
+*membuat tombol input dengan gambar bisa menggunakan
+<input type="image" src="namagambar.extensinya">
+
+*skala pioritas, yang paling menang untuk style css adalah yang
+inline
+
+*catatan tugas 2
+
+flex untuk div bungkus pertama, menghasilkan elemen selanjutnya bertumpuk kesamping
+*shift alt atas bawah buat kopi
+*alt atas bawah buat mindahin script
+
+arah dari padding dan margin  atas kanan bawah kiri

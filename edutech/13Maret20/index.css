@@ -1,0 +1,33 @@
+header{
+    background-color: teal;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    text-align: center;
+    padding-top: 10px;
+    float:left;
+    
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 10px;
+    float:left;
+}
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+}
